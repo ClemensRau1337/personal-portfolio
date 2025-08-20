@@ -274,7 +274,7 @@ export default function ClemensRauLanding() {
           </div>
 
           {/* Toggle */}
-          <div
+          {/* <div
             role="tablist"
             aria-label="Profil wählen"
             className="relative flex items-center rounded-xl border border-slate-800 bg-slate-900/60 p-1 shadow-inner"
@@ -303,7 +303,7 @@ export default function ClemensRauLanding() {
             >
               <Code2 className="h-4 w-4" /> IT / Programmierung
             </button>
-          </div>
+          </div> */}
 
           {/* Socials */}
           <nav
@@ -420,11 +420,11 @@ export default function ClemensRauLanding() {
                     <SectionTitle
                       eyebrow="Schauspiel"
                       title={<span id="actor-title">Sedcard & Referenzen</span>}
-                      subtitle="Kurzprofil, Showreel und ausgewählte Projekte. Ersetze die Platzhalter durch deine echten Daten."
+                      subtitle="Kurzprofil, Showreel und ausgewählte Projekte."
                     />
 
                     {/* Sedcard Grid */}
-                    <div className="grid gap-6 lg:grid-cols-3">
+                    <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                       {/* Left: Portrait + Facts */}
                       <Card>
                         <div className="grid gap-4">
