@@ -454,7 +454,7 @@ export default function ClemensRauLanding() {
                               </Badge>
                             </div>
                             <div className="mt-3 flex flex-wrap gap-2">
-                              <IconLink href="#" label="Sedcard PDF">
+                              <IconLink href="https://www.clemensrau.de/Setcard-Clemens-Rau-August-2025.pdf" label="Sedcard PDF">
                                 <Download className="h-4 w-4" /> Sedcard (PDF)
                               </IconLink>
                             </div>
