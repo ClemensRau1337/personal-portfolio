@@ -508,19 +508,27 @@ export default function ClemensRauLanding() {
                                 {
                                   year: 2025,
                                   title:
-                                    "Wie tickt Deutschland - Show mit Linda Zervakis",
+                                    "Wie tickt Deutschland - Sendung mit Linda Zervakis",
                                   role: "Karrieremann",
-                                  prod: "Nordendfilm Pro7",
+                                  prod: "Nordendfilm für ProSieben",
                                   dir: "Darsteller",
                                   link: "",
                                 },
                                 {
                                   year: 2025,
-                                  title: "Lascana Werbung Sommer",
+                                  title: "Werbung Lascana Sommer",
                                   role: "Büro Kollege",
-                                  prod: "Sunshine",
+                                  prod: "Sunshine für LSCN",
                                   dir: "Darsteller",
                                   link: "",
+                                },
+                                {
+                                  year: 2024,
+                                  title: "Milka Weihnachten Werbung",
+                                  role: "Besucher am Milka Stand. Interaktion und Gesang mit Ruth Moschner",
+                                  prod: "Milka Instagram",
+                                  dir: "Darsteller",
+                                  link: "https://www.instagram.com/reel/DDZox8TIA7Y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
                                 },
                                 {
                                   year: 2024,
@@ -541,37 +549,20 @@ export default function ClemensRauLanding() {
                                 {
                                   year: 2021,
                                   title: "German Crime Story: Gefesselt",
-                                  role: "Polizist",
+                                  role: "Polizist & Hafenarbeiter",
                                   prod: "Amazon Prime",
                                   dir: "Darsteller",
-                                  link: "https://www.amazon.de/German-Crime-Story-Gefesselt/dp/B0B6GNF2VQ",
-                                },
-                                {
-                                  year: 2021,
-                                  title: "German Crime Story: Gefesselt",
-                                  role: "Hafenarbeiter",
-                                  prod: "Amazon Prime",
-                                  dir: "Komparse",
                                   link: "https://www.amazon.de/German-Crime-Story-Gefesselt/dp/B0B6GNF2VQ",
                                 },
                                 {
                                   year: 2020,
                                   title:
                                     "Tatort: Borowski und die Angst der weißen Männer",
-                                  role: "Neo-Nazi",
+                                  role: "Neo-Nazi & Kommissar",
                                   prod: "NDR & ARD",
                                   dir: "Darsteller",
                                   link: "https://www.ndr.de/der_ndr/presse/mappen/borowskiunddieangst100.pdf",
-                                },
-                                {
-                                  year: 2020,
-                                  title:
-                                    "Tatort: Borowski und die Angst der weißen Männer",
-                                  role: "Workshop Besucher",
-                                  prod: "NDR & ARD",
-                                  dir: "Komparse",
-                                  link: "https://www.ndr.de/der_ndr/presse/mappen/borowskiunddieangst100.pdf",
-                                },
+                                }
                               ].map((p, i) => (
                                 <tr
                                   key={i}
